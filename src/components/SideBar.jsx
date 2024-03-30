@@ -12,7 +12,7 @@ export default function SideBar() {
         {sidebarData.map((link) => (
           <Button
             key={link.id}
-            className="m-2 bg-transparent hover:bg-gray-300 text-gray-800 hover:shadow-md text-md hover:font-bold w-[13rem]"
+            className="m-2 bg-transparent hover:bg-gray-300 text-gray-700 hover:shadow-md text-md hover:font-bold w-[13rem]"
           >
             {link.name}
           </Button>
