@@ -4,9 +4,9 @@ import { projectData } from "@/lib/data";
 
 export default function Card() {
   return (
-    <div className="">
+    <div className="grid grid-cols-3 gap-4 mb-3">
       {projectData.map((index) => (
-        <div key={index.id}>
+        <div key={index.id} className="mt-2">
           <Image
             src={index.Image}
             alt={index.alt}
