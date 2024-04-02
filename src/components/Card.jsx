@@ -12,9 +12,11 @@ export default function Card() {
             alt={index.alt}
             height={400}
             width={400}
-            className="ml-1"
+            className="ml-1 cursor-pointer"
           />
-          <div className="font-bold text-sm mt-2 ml-2">{index.title}</div>
+          <div className="font-bold text-white text-sm mt-2 ml-2">
+            {index.title}
+          </div>
           <div className="text-xs text-gray-400 ml-2">{index.time}</div>
         </div>
       ))}

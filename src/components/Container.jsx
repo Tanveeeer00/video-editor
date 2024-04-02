@@ -9,7 +9,7 @@ export default function Container({
 }) {
   return (
     <div
-      className={`border border-white w-52 h-52 ${children} ${className} ${textColor} ${bgColor}`}
+      className={`border border-white overflow-y-auto ${children} ${className} ${textColor} ${bgColor}`}
       {...props}
     >
       {children}
