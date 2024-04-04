@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import data from "@/lib/data";
+import data from "@/lib/data.json";
 
 export default function Card() {
   const projectData = data.projectData;
