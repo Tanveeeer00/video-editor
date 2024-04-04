@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { projectData } from "@/lib/data";
+import data from "@/lib/data";
 
 export default function Card() {
+  const projectData = data.projectData;
   return (
     <div className="grid grid-cols-3 gap-4 mb-3">
       {projectData.map((index) => (

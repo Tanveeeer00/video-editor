@@ -38,7 +38,9 @@ export default function AsideSection() {
           </Button>
         </div>
         <div className="ml-auto mt-5 mr-2">
-          <p className="underline text-white cursor-pointer">All Videos</p>
+          <p className="underline text-white cursor-pointer">
+            All Videos{" >"}
+          </p>
         </div>
       </div>
       <p className="mt-3 ml-3 mb-2 text-md text-white font-semibold">
