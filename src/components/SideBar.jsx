@@ -2,6 +2,7 @@ import data from "@/lib/data.json";
 import React from "react";
 import Image from "next/image";
 import logo from "../../public/tlogo.svg";
+import Link from "next/link";
 
 export default function SideBar() {
   const sidebarData = data.sidebarData;
@@ -12,7 +13,7 @@ export default function SideBar() {
         data-drawer-toggle="logo-sidebar"
         aria-controls="logo-sidebar"
         type="button"
-        class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        className="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
       >
         <span class="sr-only">Open sidebar</span>
         <svg
@@ -48,13 +49,18 @@ export default function SideBar() {
             </span>
           </div>
 
-          {sidebarData.map((link) => (
-            <ul class="space-y-2 font-medium" key={data.id}>
-              <li className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-900 cursor-pointer group">
-                <span className="ms-3">{link.name}</span>
+          <ul class="space-y-2 font-medium">
+            {sidebarData.map((data) => (
+              <li
+                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-900 cursor-pointer group"
+                key={data.id}
+              >
+                <Link href={data.link}>
+                  <span className="ms-3">{data.name}</span>
+                </Link>
               </li>
-            </ul>
-          ))}
+            ))}
+          </ul>
         </div>
       </aside>
     </>
