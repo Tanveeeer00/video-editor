@@ -1,0 +1,85 @@
+{
+  "sidebarData": [
+    {
+      "id": 1,
+      "name": "New Video +",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "name": "Home",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "name": "Template",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "name": "All Videos",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "name": "dashboard",
+      "link": "/dashboard"
+    }
+  ],
+  "projectData": [
+    {
+      "id": 1,
+      "Image": "https://images.unsplash.com/photo-1576267345152-5e8d10f75cb4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Project Name - 1",
+      "time": "10 minutes ago",
+      "alt": "Image not available"
+    },
+    {
+      "id": 2,
+      "Image": "https://images.unsplash.com/photo-1636971819476-aa41dc3db0d0?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Project Name - 2",
+      "time": "11 hours ago",
+      "alt": "Image not available"
+    },
+    {
+      "id": 3,
+      "Image": "https://images.unsplash.com/photo-1613294326794-e7c74fe886e2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Project Name - 3",
+      "time": "1 day ago",
+      "alt": "Image not available"
+    },
+    {
+      "id": 4,
+      "Image": "https://images.unsplash.com/photo-1711539924834-06816347ff2a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Project Name - 4",
+      "time": "2 days ago",
+      "alt": "Image not available"
+    },
+    {
+      "id": 5,
+      "Image": "https://images.unsplash.com/photo-1709828490848-1603573f96e7?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Project Name - 5",
+      "time": "2 days ago",
+      "alt": "Image not available"
+    },
+    {
+      "id": 6,
+      "Image": "https://images.unsplash.com/photo-1682687982185-531d09ec56fc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Project Name - 6",
+      "time": "3 days ago",
+      "alt": "Image not available"
+    }
+  ],
+  "AssetData": [
+    {
+      "id": 1,
+      "Image": "https://images.unsplash.com/photo-1576267345152-5e8d10f75cb4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Video1.mp3"
+    },
+    {
+      "id": 2,
+      "Image": "https://images.unsplash.com/photo-1636971819476-aa41dc3db0d0?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "title": "Video2.mp3"
+    }
+  ]
+}
