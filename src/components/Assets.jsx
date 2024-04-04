@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "./Container";
 import data from "@/lib/data.json";
 import Image from "next/image";
 

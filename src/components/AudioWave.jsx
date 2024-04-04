@@ -36,13 +36,13 @@ function AudioWave() {
     }
   }, []);
 
-  const play = useCallback(() => {
-    wavesurferRef.current.playPause();
-  }, []);
+  // const play = useCallback(() => {
+  //   wavesurferRef.current.playPause();
+  // }, []);
 
-  const setZoom50 = () => {
-    wavesurferRef.current.zoom(50);
-  };
+  // const setZoom50 = () => {
+  //   wavesurferRef.current.zoom(50);
+  // };
 
   return (
     <div className="bg-slate-800">
